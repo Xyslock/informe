@@ -3,6 +3,8 @@ import streamlit as st
 from datetime import datetime, timedelta
 import os
 from generar_informe import crear_informe
+# 👇 Esto es nuevo: forzamos reconstrucción
+st.write("")
 
 st.set_page_config(
     page_title="Informe de Afectaciones Críticas",
@@ -57,4 +59,5 @@ else:
 
             except Exception as e:
                 st.error(f"❌ Error al generar el informe: {str(e)}")
+
                 st.exception(e)

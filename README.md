@@ -103,5 +103,4 @@ Incluye:
 ---
 
 ## 🏢 Créditos
-
 Desarrollado para automatizar la generación de informes dentro del marco operativo de **Axity**.
